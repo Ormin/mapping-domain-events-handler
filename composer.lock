@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d0d2b3b6f1ed0d63a0d888e07b32ed79",
-    "content-hash": "ec982bbc1d10feadd17acf48c040a09c",
+    "hash": "34da55e1c9d20f69209ad0ca95bca2d6",
+    "content-hash": "0cd0f545dff336db38d3fb4a2d1bf00c",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -301,42 +301,6 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
-        },
-        {
-            "name": "ormin/phpspec-ddd-project-extension",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ormin/phpspec-ddd-project-extension.git",
-                "reference": "70a29287432e8e7cd1b3480c68bf2f1a6717d52e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ormin/phpspec-ddd-project-extension/zipball/70a29287432e8e7cd1b3480c68bf2f1a6717d52e",
-                "reference": "70a29287432e8e7cd1b3480c68bf2f1a6717d52e",
-                "shasum": ""
-            },
-            "require": {
-                "phpspec/phpspec": "^2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexandru Pitis",
-                    "email": "alexandru.pitis@blablacar.com"
-                }
-            ],
-            "description": "PHPSpec helper classes for utilizing DDD and commonly used patterns around it",
-            "time": "2015-10-23 16:20:17"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1047,9 +1011,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ormin/phpspec-ddd-project-extension": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
