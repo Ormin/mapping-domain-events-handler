@@ -1,0 +1,2 @@
+extensions:
+  - Ormin\DDDProjectExtension\DDDProjectExtension

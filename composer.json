@@ -1,0 +1,25 @@
+{
+    "name": "ormin/mapping-domain-events-handler",
+    "description": "Set of classes allowing you to grasp the benefits of using and persisting domain events while still persisting state changes into your system",
+    "require": {
+        "broadway/broadway": "^0.8.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.3",
+        "ormin/phpspec-ddd-project-extension": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ormin\\EventHandling\\": "src/Ormin/EventHandling/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandru Pitis",
+            "email": "alexandru.pitis@blablacar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
