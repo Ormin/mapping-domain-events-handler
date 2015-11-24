@@ -7,6 +7,7 @@ use Broadway\Domain\AggregateRoot;
 use Broadway\Domain\DomainEventStreamInterface;
 use Broadway\EventHandling\EventBusInterface;
 use Broadway\EventSourcing\EventStreamDecoratorInterface;
+use Broadway\Repository\RepositoryInterface;
 
 /**
  * Class EventBasedRepository
@@ -14,7 +15,7 @@ use Broadway\EventSourcing\EventStreamDecoratorInterface;
  * from events
  * @package Ormin\EventHandling\Repository
  */
-class EventBasedRepository
+class EventBasedRepository implements RepositoryInterface
 {
 
     private $eventStore;
@@ -65,6 +66,10 @@ class EventBasedRepository
         }
 
         return $eventStream;
+    }
+
+    public function load($id) {
+       throw new \BadMethodCallException("This repository is write-only");
     }
 
 }
